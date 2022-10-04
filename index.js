@@ -37,3 +37,9 @@ async function login() {
     */
 }
 button.onclick = login;
+
+let tosidebtn = document.getElementById("tosidebtn");
+function buttonToSide(){
+    tosidebtn.onclick = window.location.href = "loginSucces.html";
+}
+tosidebtn.onclick = buttonToSide;
